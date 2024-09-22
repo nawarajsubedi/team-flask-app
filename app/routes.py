@@ -3,7 +3,6 @@ from flask import Blueprint, g, request
 
 from app.utils import (
     create_response,
-    parse_datetime,
 )
 from app.schemas import UserSchema, PlayerSchema, TeamSchema
 from app.decorators.auth import generate_jwt_token, token_required
